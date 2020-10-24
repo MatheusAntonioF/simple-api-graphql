@@ -1,0 +1,9 @@
+{
+  "type": "postgres",
+  "username": "postgres",
+  "password": "docker",
+  "database": "blog-gql",
+  "entities": ["./src/models/*.ts"],
+
+  "synchronize": true
+}

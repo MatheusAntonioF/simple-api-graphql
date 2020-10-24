@@ -1,0 +1,15 @@
+import { InputType, Field } from 'type-graphql';
+
+@InputType()
+class UpdateBookInput {
+  @Field({ nullable: true })
+  title?: string;
+
+  @Field({ nullable: true })
+  author?: string;
+
+  @Field({ nullable: true })
+  isPublished?: boolean;
+}
+
+export default UpdateBookInput;
